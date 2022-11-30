@@ -1,0 +1,42 @@
+:root{} 
+
+.poppins-font {
+    font-family: Poppins;
+}
+
+.manrope-font {
+    font-family: Manrope;
+}
+
+.manrope-font-1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.manrope-font-2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.manrope-font-bold-1 {
+    font-style: normal;
+    font-weight: bold;
+}
+
+a.card{
+    display: block;
+    text-decoration: none;
+    padding : 20px;
+    border-radius: 10px;
+    border : 1px solid white;
+    color : white;
+    margin : 5px;
+    transition: all ease-in-out;
+}
+
+.card:hover{
+    cursor : pointer;
+    box-shadow: 1px -2px 20px -5px grey;
+}
